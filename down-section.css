@@ -1,0 +1,106 @@
+.down-sections {
+    margin-top: 0;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    border-bottom: 8px solid grey;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 98vw;
+    width: 100%;
+    margin-left: 10vw;
+    padding: 72px 0 ;
+}
+
+.for-text2 {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 60px 25vw 0 0;
+    height: fit-content;
+}
+.video-tv{
+    position:relative;
+    height: fit-content;
+    top:40px;
+    right: 17vw;
+    
+}
+.img-tv{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    width: 450px;
+    height: 400px;
+    top: -50px;
+    bottom: 0;
+    right: 0;
+    left: -45px; 
+
+}
+
+.tv {
+    width: 450px;
+    height: 400px;
+   
+}
+
+.third-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    padding: 72px 0 ;
+}
+
+.for-text3 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 12vw 0 0;
+}
+
+.mobile {
+    width: 600px;
+    height: 420px;
+}
+
+.down-forth-sections{
+    margin-top: 0;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    border-bottom: 8px solid gray;   
+}
+.watch{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 60px 60vw 0 15vw;
+}
+.stream{
+    margin: 20px 56vw 0 15vw;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.down-fifth-section{
+    height: 530px
+}
+.fifth-section{
+    margin:0 0 0 10vw ;
+}
+
+.cartoon{
+    width: 508px;
+    height: 381px;
+}
+
+.down-sixth-section{
+    height: 920px;
+    display: flex;
+    justify-content: center;
+}

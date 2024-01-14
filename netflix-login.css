@@ -1,0 +1,126 @@
+
+body {
+    font-family:  sans-serif;
+    max-width: 100vw;
+    width: 100%;
+    max-height: 100vh;
+    height: 100%;
+    background-image: url(images/netflix-login.jpg);
+    transition: background-image ;
+    margin: 0;
+    padding: 0;
+
+}
+
+.first-section {
+    height: 100vh;
+    background-image: url(images/netflix-login.jpg);
+    border-bottom: 8px solid grey;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8));
+
+}
+
+.heading {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    margin: 20px 0 0 -200px;
+    height: 2.5rem;
+    width: 9.25rem;
+
+}
+
+.sign-btn {
+    width: 80px;
+    height: 32px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 30px -250px 0 0;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 15px;
+    padding-bottom: 0;
+}
+
+.ready {
+    color: white;
+    padding-top: 0;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.email {
+    width: 365px;
+    font-size: 16px;
+    height: 54px;
+    border-radius: 4px;
+    padding-top: 4px;
+    font-weight: 600;
+    background-color: rgb(20, 20, 20);
+    color: rgb(224, 224, 224);
+    text-indent: 10px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8));
+    outline: none;
+
+}
+.email:focus{
+   /* border: 4px solid white; */
+   
+}
+
+.get-started {
+    width: 210px;
+    height: 56px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 20px 4px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition:all 0.2s ease;
+}
+.get-started:hover{
+    opacity: 0.9;
+}
+.get-started:active{
+    opacity: 0.7;
+}
+.get-started span{
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
