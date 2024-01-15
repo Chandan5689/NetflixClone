@@ -1,106 +1,197 @@
 .down-sections {
-    margin-top: 0;
-    background: black;
     display: flex;
     flex-direction: row;
-    height: 600px;
-    border-bottom: 8px solid grey;
-}
-
-.second-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 98vw;
-    width: 100%;
-    margin-left: 10vw;
-    padding: 72px 0 ;
-}
-
-.for-text2 {
-    
-    display: flex;
-    flex-direction: column;
-    margin: 60px 25vw 0 0;
-    height: fit-content;
-}
-.video-tv{
-    position:relative;
-    height: fit-content;
-    top:40px;
-    right: 17vw;
-    
-}
-.img-tv{
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    width: 450px;
-    height: 400px;
-    top: -50px;
-    bottom: 0;
-    right: 0;
-    left: -45px; 
-
-}
-
-.tv {
-    width: 450px;
-    height: 400px;
-   
-}
-
-.third-section {
-    display: flex;
-    flex-direction: row;
-    margin-left: 5vw;
-    padding: 72px 0 ;
-}
-
-.for-text3 {
-    display: flex;
-    flex-direction: column;
-    margin: 50px 12vw 0 0;
-}
-
-.mobile {
-    width: 600px;
-    height: 420px;
-}
-
-.down-forth-sections{
-    margin-top: 0;
-    background: black;
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    border-bottom: 8px solid gray;   
-}
-.watch{
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
     color: white;
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin: 60px 60vw 0 15vw;
+    padding: 60px 0;
+    /* border-bottom: 7px solid rgb(54, 54, 54) ; */
 }
-.stream{
-    margin: 20px 56vw 0 15vw;
+
+.first {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0 34px 0;
+}
+
+.first .text-enjoy {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.first .text-playstation {
     font-size: 1.5rem;
     font-weight: 400;
-}
-.down-fifth-section{
-    height: 530px
-}
-.fifth-section{
-    margin:0 0 0 10vw ;
+    padding-top: 20px;
 }
 
-.cartoon{
-    width: 508px;
-    height: 381px;
+.video-tv {
+    position: relative;
 }
 
-.down-sixth-section{
-    height: 920px;
+.video-tv img {
+    position: relative;
+    z-index: 10;
+    width: 455px;
+
+}
+
+.video-tv video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 420px;
+    overflow: hidden;
+}
+
+.cut-border {
+    height: 7px;
+    background-color: rgb(54, 54, 54);
+    position: relative;
+    z-index: 20;
+}
+
+.down-sections-fifth {
+    background-color: black;
+    color: white;
+    padding: 34px 0 64px 0;
+}
+
+.down-sections-fifth h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.questions-btns {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 20px;
+    max-width: 70vw;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.questions-btns:hover {
+    background-color: rgb(65, 65, 65);
+    transition: all 0.3s ease;
+}
+
+.down-sections-fifth .text-ready {
+    text-align: center;
+    padding: 34px 0 20px 0;
+}
+
+footer {
+    max-width: 70vw;
+    margin: auto;
+    padding: 34px 0 64px 0;
+    color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+footer .contact {
+    padding: 24px 0;
+}
+
+.all-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.all-links .links {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+a:active {
+    color: red;
+}
+
+.option-box {
+    padding: 26px 0 12px 0;
+}
+
+.option-box #english {
+    width: 123px;
+    height: 32px;
+    color: rgba(255, 255, 255, 0.945);
+    background-color: #0f0f0f;
+    font: inherit;
+    text-indent: 26px;
+    border-radius: 4px;
+}
+
+#english:focus {
+    border: 2px solid rgba(231, 231, 231, 0.5);
+    outline: 2px solid white;
+
+}
+
+.last-netflix {
+    padding: 10px 0 0 0;
+
+}
+
+.last-netflix h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .heading {
+        max-width: 90vw;
+    }
+
+    .text-unlimited {
+        font-size: 32px;
+    }
+
+    .text-watch {
+        font-size: 18px;
+    }
+
+    .text-ready {
+        font-size: 18px;
+    }
+
+    .down-sections {
+        flex-wrap: wrap;
+    }
+
+    .video-tv {
+        padding: 24px 0;
+    }
+
+    .video-tv img {
+        width: 300px;
+
+    }
+
+    .video-tv video {
+        width: 275px;
+        overflow: hidden;
+    }
+
+    .all-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+
 }
